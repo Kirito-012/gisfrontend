@@ -1,0 +1,11 @@
+# Full backend dependency set (install into a venv).
+# For CPU-only torch, install first with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+numpy
+pillow
+scikit-image
+fastapi
+uvicorn[standard]
+python-multipart

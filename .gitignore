@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / vite
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# local env (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# os
+.DS_Store
+Thumbs.db
